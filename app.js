@@ -16,7 +16,8 @@ var app = express();
 var mongoose = require('mongoose');
 
 //2Set up default mongoose connection
-var dev_db_url = 'mongodb+srv://thElias:amunigun96%23@cluster0-o03gb.mongodb.net/local_library?retryWrites=true';
+//Password removed
+var dev_db_url = 'mongodb+srv://thElias:%23@cluster0-o03gb.mongodb.net/local_library?retryWrites=true';
 var mongoDB = process.env.MONGODB_URI || dev_db_url;
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 
