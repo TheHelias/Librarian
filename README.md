@@ -1,2 +1,2 @@
 # Local-Library
-A library application developed using express
+A library management system developed using express and pug
